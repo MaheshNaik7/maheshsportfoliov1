@@ -1,0 +1,532 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 10, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+
+                                                                                     /* navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(179, 25, 8);
+  font-size: 1.3rem;
+}
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+
+
+                                                                               /* home.html/Page */
+.left {
+  font-size: 2rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 3rem;
+}
+.leftSection .button{
+  padding: 50px 0;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+.button .btn a:hover{
+  color: aqua;
+ }
+.leftSection .btn {
+  padding: 10px;
+  background: black;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.rightSection img {
+  width: 90%;
+}
+
+.purple {
+  color: rgb(170, 107, 228);
+}
+.text-gray {
+  color: gray;
+}
+#element {
+  color: rgb(170, 107, 228);
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+.secondSection .box {
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px;
+}
+.ThirdSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.ThirdSection h1 {
+  font-size: 1.9rem;
+}
+.ThirdSection .box {
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.ThirdSection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 95px;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 14px;
+}
+.vertical-desc {
+  position: relative;
+  top: 75px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+
+
+                                                                              /* about.html/Page */
+.intro-about h2{
+  font-family: "Poppins", sans-serif;
+  margin: 12px;
+}
+
+.intro-about p{
+  font-family: "Poppins", sans-serif;
+  margin: 12px;
+}
+
+.intro{
+  font-family: "Poppins", sans-serif;
+}
+
+.profile_img{
+  border-radius: 50%;
+}
+
+.profile_name{
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  margin: 20px 0px 30px 0px;
+}
+
+.intro img {
+  width: 150px; /* Set the desired width */
+  height: 170px; /* Set the desired height */
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.skills {
+  font-family: "Poppins", sans-serif;
+  margin: 12px;
+}
+
+.image{
+  padding: 1px;
+  margin: 0px 5px;
+  top: -32px;
+  left: -5px;
+}
+
+.button1 .btn{
+  margin: 12px;
+}
+.button1 .btn a:hover{
+  color: aqua;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills div {
+  text-align: center;
+  margin: 10px;
+  width: 23%; /* Adjust the width to fit 4 skills in a row */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills img {
+  max-width: 18%; /* Increase image size */
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px; /* Increase space between image and name */
+}
+
+.carousel-cell {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.carousel-cell img {
+  max-width: 60%;
+  height: auto; /* Optional: Maintain aspect ratio */
+}
+
+.carousel-cells img {
+  max-width: 30%;
+  height: auto; /* Optional: Maintain aspect ratio */
+  
+}
+.carousel-cells {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.icons a {
+  background-color: rgb(125 125 125 / 25%);
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 5px 10px;
+  text-decoration: none;
+}
+
+.icons a:hover{
+  background-color: rgb(30 30 30 / 25%);
+}
+
+.icons a i{
+  margin: 5px;
+}
+
+  .nukri_icon{
+  color:rgb(155, 146, 206);
+}
+
+.in_icon{
+  color: #0e76a8;
+}
+
+.git_icon{
+  color: white;
+}
+
+.intro {
+  text-align: center;
+}
+
+
+                                                                            /* Projects.html/Page */
+.project{
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+}
+ 
+h1{
+  font-family: "Poppins", sans-serif;
+  margin: 23px;
+}
+
+p{
+  font-family: "Poppins", sans-serif;
+}
+
+.projects-container {
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.your-form {
+  margin-bottom: 20px;
+}
+
+.your-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.your-form input,
+.your-form textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.your-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.your-form button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+ul li h3 {
+  margin-bottom: 5px;
+}
+
+/* ul li p {
+  margin-bottom: 10px;
+} */
+
+
+
+                                                                             /* contact.html/Page */
+.contactform{
+  padding: 0 34px;
+  padding-top: 50px;
+  font-family: "Poppins", sans-serif;
+  
+}
+.contactform h1{
+  font-family: "Poppins", sans-serif;
+  padding: 12px 0;
+}
+
+.contactform form div{
+   padding: 10px 0;
+   display: flex;
+   flex-direction: column;
+}
+
+.contactform form div input{
+   width: 26vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+}
+
+#emailHelp{
+  font-size: 11px;
+  color: white;
+  margin: 0 5px;
+  padding: 2px 0 0 0;
+}
+
+#form-check{
+  flex-direction: row;
+}
+#form-check input{
+  width: 24px;
+  margin: 3px 0;
+}
+
+.btn {
+  padding: 10px;
+  color: white;
+  background: black;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.btn:hover{
+  color: aqua;
+ }
+
+
+                                                                                      /* footer */
+.footer {
+background-color: rgb(15, 6, 15);
+margin-top: 35px;
+
+}
+.footer {
+display: flex;
+padding: 23px 122px;
+justify-content: space-evenly;
+}
+.footer ul {
+list-style: none;
+}
+.footer ul li a {
+text-decoration: none;
+color: white;
+}
+.footer ul li a:hover {
+color: rgb(179, 25, 8);
+font-size: 1.3rem;
+}
+.footer > div {
+width: 223px;
+}
+footer .footer-rights {
+text-align: center;
+color: gray;
+padding: 12px 0;
+
+}
+
+                                                                        /* ProfessionalSkills.jsx */
+progress {
+  vertical-align: baseline;
+}
+
+ 
+  
+  .card-body {
+      flex: 1 1 1 1;
+      padding: 1.25rem;
+  }
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+  }
+
+  @media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+  @media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+  @media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+  @media (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+  
+
+  
+
+ 
+
+.progress {
+  display: flex;
+  overflow: hidden;
+  font-size: .75rem;
+  line-height: 1rem;
+  text-align: center;
+  background-color: #e9ecef;
+  border-radius: .25rem;
+  width: 90%;
+ }
+
+.progress-bar {
+  height: 3rem;
+  line-height: 2rem;
+  color: #fff;
+  background-color: #007bff;
+  /* transition: width .10s ease; */
+}
+
+
+
+
+.progress-container .progress {
+  height: 20px;
+  font-size: 18px;
+}
+
